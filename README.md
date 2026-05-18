@@ -42,7 +42,8 @@ utils/ → Helper classes
 
 ### Clone the Repository
 
-git clone 
+git clone https://github.com/iamsamarthpatil/NammaSantheLedger1
+
 
 ---
 
