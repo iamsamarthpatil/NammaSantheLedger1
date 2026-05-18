@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/customer_card_bg">
+
+    <!-- TOP ROW -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- TYPE CHIP -->
+
+        <TextView
+            android:id="@+id/typeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UDHAAR"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/green_chip"/>
+
+        <!-- DATE -->
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="Today"
+            android:textColor="#757575"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <!-- ITEM NAME -->
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice + Oil"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- NOTE -->
+
+    <TextView
+        android:id="@+id/noteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly groceries"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"/>
+
+    <!-- DIVIDER -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"
+        android:layout_marginTop="14dp"/>
+
+    <!-- BOTTOM SECTION -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14dp"
+        android:gravity="center_vertical">
+
+        <!-- STATUS -->
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🟢 TO COLLECT"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <!-- AMOUNT -->
+
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹500"
+            android:textColor="#1B5E20"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
